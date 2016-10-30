@@ -1,0 +1,136 @@
+body {
+    font-family: "Open Sans";
+    font-size: 1.7em;
+    background-color: #4cae4c;
+    color: #fefefe;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    font-family: "Open Sans";
+    font-size: 1em;
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar-header>.navbar-toggle:focus, .navbar-header>.navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #efefef;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #fefefe;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #efefef;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fefefe;
+}
+
+.navbar-toggle .collapsed:hover {
+    color: transparent;
+}
+
+.navbar .navbar-nav .navbar-right {
+    background-color: black;
+}
+
+.collapsing, .in {
+    border: 0;
+    background-color: #333333;
+}
+.collapsing ul li a, .in ul li a {color: #efefef!important;}
+
+
+
+li {
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#name {
+    font-family: "Alegreya Sans", sans-serif;
+    padding: 1em;
+}
+
+
+#display {
+    font-family: Avenir,"Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 100px;
+    color: #111111;
+}
+
+#about {
+    background-color: #9c4c4b;
+    min-height: 100vh;
+    padding: 10px;
+    color: #B9CFEF;
+}
+
+#front {
+    background-color: #4cae4c;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+#projects {
+    background-color: #494b91;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+#projects h3 {
+    color: #c6ee84;
+}
+
+#contact {
+    background-color: #4db34d;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+#footer {
+    background-color: #333333;
+    min-height: 20vh;
+    border-top: 1px solid gray;
+    padding: 20px;
+}
+
+#copyright-info {
+    font-family: "Alegreya Sans";
+    font-size: 20px;
+    padding: 5px;
+}
+
+.fa {
+    color: #eeeeee;
+}
+
+.fa:after {
+    content: "\00a0";
+}
+
+.webpage-design-info {
+    color: transparent;
+
+}
+
+.webpage-design-info:hover {
+    color: #efefef;
+
+}

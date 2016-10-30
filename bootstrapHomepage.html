@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Alegreya+Sans" rel="stylesheet" />
+</head>
+<body>
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse">
+                <i class="fa fa-navicon fa-2x"></i>
+            </button>
+            <a class="navbar-brand" href="#"><span>Xiaochen Du</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar navbar-nav navbar-right">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row text-center text-justify" id="front">
+        <h2 class="text-center" id="display">Automator ~ Full Stack Developer ~ Chemist</h2>
+        <p class="text-center">
+            <a href="http://github.com/dxc2007" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/duxiaochen" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a href="http://codepen.io/dxc2007" target="_blank"><i class="fa fa-codepen fa-2x"></i></a>
+            <a href="http://angel.co/dxc2007" target="_blank"><i class="fa fa-angellist fa-2x"></i></a>
+        </p>
+    </div>
+
+
+    <div class="row col" id="about">
+        <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+            <h1 id="name">Hi, I am <u>Xiaochen</u>.</h1>
+            <p>
+                I'm new to programming <i class="fa fa-laptop" aria-hidden="true"></i>. It started with JavaScript when I stumbled upon KhanAcademy in March. <br />
+                I moved on to FreeCodeCamp in May <i class="fa fa-free-code-camp" aria-hidden="true"></i> where I went through JS practice exercises from easy to hard and did my first front end projects.
+                <br />
+                Now I'm still learning from the web but also building full stack apps when I'm off military duty. <i class="fa fa-crosshairs" aria-hidden="true"></i>
+                <br />
+                I also learnt Python through courses on platforms like EdX and I've touched on Data Scraping <i class="fa fa-database" aria-hidden="true"></i>, Data Visualisation and Machine Learning
+                (well, it wasn't really in this order but yeah).
+                <br />
+                Apart from programming, I'm a big fan of Chemistry <i class="fa fa-flask" aria-hidden="true"></i>and her fringe topics, be it quantum chemistry or biochemistry.
+                <br />
+                When I'm free, I like to run. Especially long distances.
+            </p>
+        </div>
+    </div>
+
+    <div class="row" id="projects">
+        <div class="col-lg-4">
+            <h1 class="text-center">Projects</h1>
+            <div class="col-md-6">
+                <a target="_blank" href="  https://voting-app-dxc2007.herokuapp.com"><img src="./screenshots/Full%20Stack%20Voting%20App.png" alt="Full Stack Voting App" class="img-responsive img-rounded"></a>
+                <h3>Full Stack Voting App</h3>
+                <p>Inspired by FreeCodeCamp's voting app and my friend's need for a simple voting app. My first Full Stack App!
+                </p>
+                <p>Technologies: <i class="fa fa-html5" aria-hidden="true"></i> <i class="fa fa-css3" aria-hidden="true"></i> React on ES6 <i class="fa fa-first-order" aria-hidden="true"></i>, Material UI, Mongo and Express with REST API in between,
+                    and Passport.js with JWT for <i class="fa fa-lock" aria-hidden="true"></i>. Chart.js for the pretty <i class="fa fa-bar-chart" aria-hidden="true"></i> charts</p>
+                <p>Function: CRUD <i class="fa fa-unlock" aria-hidden="true"></i> Users can create and save polls, add new options to polls and delete poll they don't want anymore.
+                    All Users can vote on every poll and view the results on a chart.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <a target="_blank" href="https://s.codepen.io/dxc2007/debug/zBqYma"><img src="./screenshots/Wikipedia%20Viewer.png" alt="Wikipedia Viewer" class="img-responsive img-rounded"></a>
+                <h3>Wikipedia Viewer</h3>
+                <p>Gives you a customised view of <i class="fa fa-wikipedia-w" aria-hidden="true"></i>pages related to any topic you are interested in.
+                    No problem if you have no idea on what to read. Click the "Random" button</p>
+            </div>
+            <!--<div class="col-md-6">-->
+                <!--<img src="./screenshots/Twitch%20Channels%20Status.png" alt="Twitch Channel Status" class="img-responsive img-rounded">-->
+                <!--<h3>Twitch API</h3>-->
+                <!--<p>Checks whether your favorite <i class="fa fa-twitch" aria-hidden="true"></i>streams are online or down</p>-->
+            <!--</div>-->
+
+            <div class="col-md-6">
+                <a target="_blank" href="https://s.codepen.io/dxc2007/debug/WGbNLQ"><img src="./screenshots/InteractiveUSGDPChart.png" alt="US GDP Chart" class="img-responsive img-rounded"></a>
+                <h3>US GDP Chart</h3>
+                <p>Interactive D3.js graph that shows the year and GDP on mouse hover</p>
+            </div>
+            <div class="col-md-6">
+                <a target="_blank" href="https://mixpay.herokuapp.com"><img src="./screenshots/MixPay.png" alt="MixPay" class="img-responsive img-rounded"></a>
+                <h3>MixPay</h3>
+                <h4>NTU iNTUition Hackathon 2016</h4>
+                <p>Role: Designed the homepage and the user interface for the app and some of the authentication middleware</p>
+                <p>Technologies: Python Django, Semantic UI, PayPal API</p>
+                <p>Function: An income manager for small freelance groups based on <i class="fa fa-paypal" aria-hidden="true"></i> API. A business account connects to individual account.
+                    All income are deposited in the business account, which helps to make payments for supplies and rental,
+                    has a minimum savings function for the group and monthly payouts with income analytics.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <a target="_blank" href="https://fcc-url-shortener-dxc2007.herokuapp.com"><img src="./screenshots/URL%20Shortener%20Service.png " alt="URL Shortener Service" class="img-responsive img-rounded"></a>
+                <h3>URL Shortener Service</h3>
+                <p>Technologies: Express.js, MongoDB, EJS template, REST API</p>
+                <p>Function: An URL shortener service that simply... works</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row text-center" id="contact">
+        <h1 class="text-center">Contact</h1>
+        <div class="col-md-6 col-md-offset-3">
+            <form action="mailto:duxiaochen1996@outlook.com" method="post" enctype="text/plain">
+                <div class="form-group"> <label>Name: </label><input type="name" name="name" class="form-control" placeholder="First, Last"></div>
+                <div class="form-group"> <label>Email: </label><input type="email" name="email" class="form-control" placeholder="xxx@yyy.zzz"></div>
+                <div class="form-group"> <label>Contact: </label><input type="text" name="contact" class="form-control" placeholder="(xxx)-888-9999"></div>
+                <div class="form-group"> <label>Feedback: </label><textarea name="feedback" class="form-control" rows="3"></textarea></div>
+                <input class="btn btn-default" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+
+    <div class="row text-center" id="footer">
+        <div class="col-md-6 col-md-offset-3" id="copyright-info"> created by
+            <a href="mailto:duxiaochen1996@outlook.com">xiaochen du</a> in 2016
+            <div class="webpage-design-info">
+                <p>Tech: Bootstrap, jQuery,Font Awesome, Colourco.de</p>
+                <p>Colors: </p>
+                <p>Fonts: Avenir, Alegreya Sans, Open Sans, Helvetica</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+<script src="./js/jquery-3.1.1.min.js" ></script>
+<script src="./js/bootstrap.min.js" ></script>
+</html>
