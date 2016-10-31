@@ -12,6 +12,7 @@ body {
     font-size: 1em;
     background-color: transparent;
     border: 0;
+    height: 10vh;
 }
 
 .navbar-header>.navbar-toggle:focus, .navbar-header>.navbar-toggle:hover {
@@ -43,7 +44,7 @@ body {
 }
 
 .navbar .navbar-nav .navbar-right {
-    background-color: black;
+    background-color: #333333;
 }
 
 .collapsing, .in {
@@ -53,14 +54,17 @@ body {
 .collapsing ul li a, .in ul li a {color: #efefef!important;}
 
 
-
 li {
     padding: 1em;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #fefefe;
+}
+
+h1, h2, h3 {
+    font-family: "Alegreya Sans";
 }
 
 #name {
@@ -68,11 +72,33 @@ a {
     padding: 1em;
 }
 
+.img-circle {
+    max-width: 150px;
+    padding: 10px;
+}
 
 #display {
     font-family: Avenir,"Helvetica Neue", Helvetica, Arial, sans-serif;
-    padding-top: 100px;
+    padding-top: 30vh;
     color: #111111;
+}
+
+@media (max-width:800px) {
+    #name {
+        font-family: "Alegreya Sans", sans-serif;
+        padding: 0.3em;
+    }
+
+    .img-circle {
+        max-width: 100px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+    }
+}
+
+#front {
+    background-color: #4cae4c;
+    min-height: 90vh;
 }
 
 #about {
@@ -82,16 +108,10 @@ a {
     color: #B9CFEF;
 }
 
-#front {
-    background-color: #4cae4c;
-    min-height: 100vh;
-    padding: 10px;
-}
-
 #projects {
     background-color: #494b91;
     min-height: 100vh;
-    padding: 10px;
+    padding: 30px;
 }
 
 #projects h3 {
@@ -104,17 +124,23 @@ a {
     padding: 10px;
 }
 
+#contact h1 {
+    color: #333333;
+}
+
+#contact form {
+    color: #efefef;
+}
+
 #footer {
     background-color: #333333;
-    min-height: 20vh;
-    border-top: 1px solid gray;
-    padding: 20px;
+    border-top: 1px solid #eeeeee;
 }
 
 #copyright-info {
     font-family: "Alegreya Sans";
     font-size: 20px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .fa {
@@ -127,10 +153,9 @@ a {
 
 .webpage-design-info {
     color: transparent;
-
+    font: 12px "Alegreya Sans";
 }
 
 .webpage-design-info:hover {
     color: #efefef;
-
 }
