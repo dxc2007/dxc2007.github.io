@@ -12,7 +12,7 @@ body {
     font-size: 1em;
     background-color: transparent;
     border: 0;
-    height: 10vh;
+    min-height: 10vh;
 }
 
 .navbar-header>.navbar-toggle:focus, .navbar-header>.navbar-toggle:hover {
