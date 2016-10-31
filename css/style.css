@@ -12,7 +12,6 @@ body {
     font-size: 1em;
     background-color: transparent;
     border: 0;
-    min-height: 10vh;
 }
 
 .navbar-header>.navbar-toggle:focus, .navbar-header>.navbar-toggle:hover {
@@ -79,7 +78,7 @@ h1, h2, h3 {
 
 #display {
     font-family: Avenir,"Helvetica Neue", Helvetica, Arial, sans-serif;
-    padding-top: 30vh;
+    padding: 30vh 20px 0 20px;
     color: #111111;
 }
 
