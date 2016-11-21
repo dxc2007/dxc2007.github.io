@@ -135,14 +135,13 @@ h1, h2, h3 {
 }
 
 #footer {
-    background-color: #333333;
-    border-top: 1px solid #eeeeee;
+    background-color: #343434;
 }
 
 #copyright-info {
-    font-family: "Alegreya Sans";
-    font-size: 20px;
-    padding: 10px;
+    font-family: "Avenir", sans-serif;
+    font-size: 1em;
+    padding: 2em;
 }
 
 .fa {
