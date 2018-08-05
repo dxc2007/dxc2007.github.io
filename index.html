@@ -25,7 +25,7 @@
             <ul class="navbar navbar-nav navbar-right">
                 <li><a href="#about">About Xiaochen</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Want to chat?</a></li>
+                <li><a href="#contact">Contact Xiaochen</a></li>
             </ul>
         </div>
     </div>
@@ -33,11 +33,11 @@
 
 <div class="container-fluid">
     <div class="row text-justify" id="front">
-        <h2 class="text-center" id="display">Automator ~ Full Stack Developer ~ Chemist</h2>
+        <h2 class="text-center" id="display">Machine Learning ~ Databases ~ Web Development</h2>
         <p class="text-center">
             <a href="http://github.com/dxc2007" target="_blank"><i class="fa fa-github fa-2x"></i></a>
             <a href="https://www.linkedin.com/in/duxiaochen" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-            <a href="http://codepen.io/dxc2007" target="_blank"><i class="fa fa-codepen fa-2x"></i></a>
+            <!-- <a href="http://codepen.io/dxc2007" target="_blank"><i class="fa fa-codepen fa-2x"></i></a> -->
         </p>
     </div>
 
@@ -49,23 +49,22 @@
                 <img src="images/xcmugshot.jpg" class="img-circle img-responsive" alt="Xiaochen's mug shot">
             </div>
             <p>
-                I'm new to programming <i class="fa fa-code" aria-hidden="true"></i>. It all started when I stumbled upon KhanAcademy's JavaScript tutorials in March. <br />
-            </p>
-            <p>I moved to FreeCodeCamp <i class="fa fa-free-code-camp" aria-hidden="true"></i> in May where I did JS drills and my first front end projects.
+                I'm a double major in computer science and chemistry at Duke University.
             </p>
             <p>
-                Now I'm learning from many other online sources
-                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-                <i class="fa fa-google" aria-hidden="true"></i>
-                <i class="fa fa-reddit-alien" aria-hidden="true"></i>
-                and building full stack apps when I'm off <i class="fa fa-crosshairs" aria-hidden="true"></i> military duty.
+              I started programming after graduating from high school. My first interest was in web development, in which I learnt basic HTML, CSS and JavaScript before moving on to the full-stack using ReactJS, NodeJS and MongoDB.
             </p>
             <p>
-                I also learnt Python through courses on platforms like EdX and I've touched on Data Scraping <i class="fa fa-database" aria-hidden="true"></i>, Data Visualisation and Machine Learning
-                (well, it wasn't really in this order but yeah).
+              In my first year of college, I created an online database for a materials science lab. Eventually, I saw the true value of the database was in using data analysis to discover trends and perhaps uncover new material properties.
             </p>
             <p>
-                Apart from programming, I'm a big fan of Chemistry <i class="fa fa-flask" aria-hidden="true"></i>and her fringe topics, be it quantum chemistry or biochemistry
+              That marked my transition to machine learning. Using neural networks, I'm attempting to develop new methods of doing chemistry research.
+            </p>
+            <p>
+                In the future, I aim to continue applying machine learning and other data analysis methods to gain a better understanding of science.
+            </p>
+            <p>
+                Apart from programming and chemistry <i class="fa fa-flask" aria-hidden="true"></i>, I'm also interested in math, physics and statistics.
             </p>
             <p>
                 When I'm free, I like to run. Especially long distances.
@@ -77,51 +76,41 @@
         <div>
             <h1 class="text-center">Projects</h1>
             <div class="col-md-6">
-                <a target="_blank" href="https://goalbasedfoodie.herokuapp.com"><img src="./screenshots/GoalBasedFoodie.png" alt="Full Stack Voting App" class="img-responsive img-rounded"></a>
+                <!-- <a target="_blank" href="https://github.com/dxc2007/wavepacketproj"> -->
+                  <img src="./screenshots/Wavepacket.png" alt="Machine Learning for quantum waves" class="img-responsive img-rounded">
+                <!-- </a> -->
+                <h3>Machine Learning for quantum waves [WIP]</h3>
+                <p>Experimented with long short-term memory (LSTM) and later 1D convolutional neural network (1D ConvNet) from the <a target="_blank" href="https://deepmind.com/blog/wavenet-generative-model-raw-audio/">WaveNet paper</a> to model and predict the evolution of quantum waves.
+                  Long-term aim to reduce computational time in generating these waves from first principles.
+                </p>
+                <p>Technologies: Keras with TensorFlow, Anaconda Python</p>
+            </div>
+            <div class="col-md-6">
+                <a target="_blank" href="https://materials.hybrid3.duke.edu"><img src="./screenshots/HybriD3sample.png" alt="Perovskite Materials Database" class="img-responsive img-rounded"></a>
+                <h3>HybriD<sup>3</sup> Materials Database</h3>
+                <p>Database curates and desseminates experimental and calculated results of perovskites -- a promising group of materials for next-gen solar panels. This database was designed from scratch
+                  and hosted with an Apache server on a RHEL machine. Future plans include using machine learning techniques to identify trends within the collated data and chart out new research directions for both experimental and theory groups.
+                </p>
+                <p>Technologies: Python Django, MariaDB, Bootstrap, RHEL + Apache</p>
+            </div>
+            <div class="col-md-6">
+                <a target="_blank" href="https://goalbasedfoodie.herokuapp.com"><img src="./screenshots/GoalBasedFoodie.png" alt="Goal Based Foodie App" class="img-responsive img-rounded"></a>
                 <h3>Goal Based Foodie</h3>
                 <p>I created this app to pull together all the wonderful foodie hangouts in your area.
-                    You can choose either to satisfy the growling tummy at a click of a button or to devise a long-term eating plan that brings you to a different place every meal, every day.
+                    You can choose either to satisfy your growling tummy at a click of a button or to devise a long-term eating plan that brings you to a different place every meal, every day.
                 </p>
-                <p>Technologies: React + Redux, ES6, Bootstrap, SASS and Foursquare + Google APIs</p>
-            </div>
-            <div class="col-md-6">
-                <a target="_blank" href="https://voting-app-dxc2007.herokuapp.com"><img src="./screenshots/Full%20Stack%20Voting%20App.png" alt="Full Stack Voting App" class="img-responsive img-rounded"></a>
-                <h3>Full Stack Voting App</h3>
-                <p>Inspired by FreeCodeCamp's voting app and my friend's need for a simple voting app. My first Full Stack App!
-                </p>
-                <p>Technologies: React on ES6, Material UI, Mongo and Express with REST API in between,
-                    and Passport.js with JWT for <i class="fa fa-lock" aria-hidden="true"></i>. Chart.js for the pretty <i class="fa fa-bar-chart" aria-hidden="true"></i></p>
-                <p>Function: CRUD Authenticated Users can create and save polls, add new options to polls and delete polls they don't want anymore.
-                    All Users can vote on every poll and view the results on a chart.
-                </p>
-            </div>
-            <div class="col-md-6">
-                <a target="_blank" href="https://fcc-url-shortener-dxc2007.herokuapp.com"><img src="./screenshots/URL%20Shortener%20Service.png " alt="URL Shortener Service" class="img-responsive img-rounded"></a>
-                <h3>URL Shortener Service</h3>
-                <p>Technologies: Express.js, MongoDB, EJS template, REST API</p>
-                <p>Function: An URL shortener service that simply... works.</p>
-            </div>
-            <div class="col-md-6">
-                <a target="_blank" href="https://s.codepen.io/dxc2007/debug/zBqYma"><img src="./screenshots/Wikipedia%20Viewer.png" alt="Wikipedia Viewer" class="img-responsive img-rounded"></a>
-                <h3>Wikipedia Viewer</h3>
-                <p>Gives you a customised view of <i class="fa fa-wikipedia-w" aria-hidden="true"></i>pages related to any topic you are interested in.
-                    No problem if you have no idea on what to read. Just click the "Random" button.</p>
-            </div>
-            <div class="col-md-6">
-                <a target="_blank" href="https://s.codepen.io/dxc2007/debug/WGbNLQ"><img src="./screenshots/InteractiveUSGDPChart.png" alt="US GDP Chart" class="img-responsive img-rounded"></a>
-                <h3>US GDP Chart</h3>
-                <p>Interactive D3.js graph that shows the year and GDP on mouse hover.</p>
+                <p>Technologies: React + Redux, Bootstrap, Foursquare + Google APIs</p>
             </div>
             <div class="col-md-6">
                 <a target="_blank" href="https://mixpay.herokuapp.com"><img src="./screenshots/MixPay.png" alt="MixPay" class="img-responsive img-rounded"></a>
                 <h3>MixPay</h3>
-                <h4>NTU iNTUition Hackathon 2016</h4>
-                <p>Role: Designed the homepage and the user interface for the app and some of the authentication middleware</p>
-                <p>Technologies: Python Django, Semantic UI, PayPal API</p>
-                <p>Function: An income manager for small freelance groups based on <i class="fa fa-paypal" aria-hidden="true"></i> API. A business account connects to individual account.
+                <h4>iNTUition hackathon in Singapore</h4>
+                <p>An income manager for small freelance groups based on <i class="fa fa-paypal" aria-hidden="true"></i> API. A business account connects to individual account.
                     All income are deposited in the business account, which helps to make payments for supplies and rental,
                     has a minimum savings function for the group and monthly payouts with income analytics.
                 </p>
+                <p>My Role: Designed the homepage and the user interface for the app and some of the authentication middleware</p>
+                <p>Technologies: Python Django, Semantic UI, PayPal API</p>
             </div>
         </div>
     </div>
@@ -141,8 +130,8 @@
 
 
     <div class="row text-center" id="footer">
-        <div class="col-md-6 col-md-offset-3" id="copyright-info"> created by
-            xiaochen <b>du</b> in 2016
+        <div class="col-md-6 col-md-offset-3" id="copyright-info">
+          created in 2016 | updated in 2018
             <div class="webpage-design-info">
                 <!--<p>Tech: Bootstrap, jQuery,Font Awesome, Colourco.de</p>-->
                 <!--<p>Font Colors: #111111-->
